@@ -47,3 +47,9 @@ coverage/
 # Temporary folders
 tmp/
 temp/
+
+# Professional photos (add actual photos here)
+images/*.jpg
+images/*.jpeg
+images/*.png
+!images/README.md
