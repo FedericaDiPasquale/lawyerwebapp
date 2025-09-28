@@ -361,6 +361,21 @@ function createBackToTopButton() {
 // Initialize back to top button
 document.addEventListener('DOMContentLoaded', createBackToTopButton);
 
+// Scroll indicator functionality
+document.addEventListener('DOMContentLoaded', () => {
+    const scrollIndicator = document.querySelector('.scroll-indicator');
+    if (scrollIndicator) {
+        scrollIndicator.addEventListener('click', () => {
+            const heroSection = document.querySelector('#home');
+            if (heroSection) {
+                heroSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    }
+});
+
 // Form validation enhancements
 function enhanceFormValidation() {
     const inputs = document.querySelectorAll('input, select, textarea');
