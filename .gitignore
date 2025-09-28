@@ -48,8 +48,8 @@ coverage/
 tmp/
 temp/
 
-# Professional photos (add actual photos here)
-images/*.jpg
-images/*.jpeg
-images/*.png
-!images/README.md
+# Professional photos (now included in repository)
+# images/*.jpg
+# images/*.jpeg
+# images/*.png
+# !images/README.md
