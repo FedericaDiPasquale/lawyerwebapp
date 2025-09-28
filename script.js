@@ -34,9 +34,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
-        navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.98)';
+        navbar.style.backgroundColor = 'rgba(253, 246, 227, 0.98)';
     } else {
-        navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+        navbar.style.backgroundColor = 'rgba(253, 246, 227, 0.95)';
     }
 });
 
@@ -484,9 +484,9 @@ const debouncedScrollHandler = debounce(() => {
     // Navbar background change
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
-        navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.98)';
+        navbar.style.backgroundColor = 'rgba(253, 246, 227, 0.98)';
     } else {
-        navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+        navbar.style.backgroundColor = 'rgba(253, 246, 227, 0.95)';
     }
 }, 10);
 
